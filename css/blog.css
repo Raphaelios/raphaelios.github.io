@@ -1,0 +1,46 @@
+body{
+	background-color: #fff;
+}
+
+#all {
+	min-width:320px; max-width:660px;
+	background-color: #fff;
+	margin-left: auto; margin-right: auto;
+}
+
+h1, h2, h3, p, span, a, code, a:visited, a:hover, a:link {
+	font-family: "Helvetica";
+	font-weight: 100;
+	color: #201010;
+	margin:0; padding:0;
+}
+
+h2.post-title, h2.post-title a {
+	font-weight: 300;
+}
+
+div.posts {
+	padding:2em 1em 2em 1em;
+	margin-left:auto; margin-right:auto;
+}
+
+div.post {
+	padding:0em 1em 2em 1em;
+}
+
+div.post-details {
+	padding-left: 0.2em;
+	color: #201010;
+}
+
+div.post-details span {
+	color: #241511;
+}
+
+div.post h2 a {
+	text-decoration:none;
+}
+
+div.footer {
+	margin-top: 2em;
+}

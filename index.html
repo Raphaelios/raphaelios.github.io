@@ -1,0 +1,21 @@
+---
+layout: layout
+title: Raphaelios - build scripts for iOS
+description: A collection of build scripts for adding iOS support to useful libraries.
+---
+<div class="posts">
+
+{% for post in site.posts %}
+<div class="post">
+	<h2 class="post-title"><a href="#{{ post.post-id }}" id="{{ post.post-id }}">{{ post.title }}</a></h2>
+
+	<div class="post-details">
+		<div class="post-source">source: <span><a href="{{ post.source }}">{{ post.source }}</a></span></div>
+		<div class="post-build-sh">build.sh: <span><a href="{{ post.build-sh }}">{{ post.build-sh }}</a></span></div>
+		<div class="post-verified-archs">verified archs: <span>{{ post.verified-archs }}</span></div>
+		<div class="post-verify-compiler">verify compiler: <span>{{ post.verify-compiler }}</span></div>
+	</div>
+</div>
+{% endfor %}
+
+</div>
